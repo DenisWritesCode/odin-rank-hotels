@@ -1,7 +1,8 @@
+import { useState } from "react";
 import Card from "./Card";
 
 function Hotels() {
-  const hotelsList = [
+  const hotels = [
     {
       index: 0,
       name: "One&Only Cape Town",
@@ -32,10 +33,29 @@ function Hotels() {
     },
   ];
 
+  const [hotelsList, setHotelsList] = useState(hotels);
+
+  function deleteHotel(hotelIndex) {
+    const newHotels = hotelsList.filter((hotel, index) => {
+      return index !== hotelIndex;
+    });
+
+    return newHotels;
+  }
+
+  function handleDelete(index) {
+    console.log(index);
+    //setHotelsList(hotelsList.filter((hotel) => hotel.index !== index)); //-> More succint but can't wrap my head around it yet.
+    const newHotels = deleteHotel(index);
+    setHotelsList(newHotels);
+  }
+
   return (
     <div className="hotels">
       {hotelsList.map((hotel) => {
-        return <Card key={hotel.index} {...hotel} />;
+        return (
+          <Card key={hotel.index} {...hotel} handleDelete={handleDelete} />
+        );
       })}
     </div>
   );
