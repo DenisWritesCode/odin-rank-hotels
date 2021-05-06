@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/odin-rank-hotels/static/css/main.45d31abf.chunk.css",
+    "main.js": "/odin-rank-hotels/static/js/main.6af0e52c.chunk.js",
+    "main.js.map": "/odin-rank-hotels/static/js/main.6af0e52c.chunk.js.map",
+    "runtime-main.js": "/odin-rank-hotels/static/js/runtime-main.5be10888.js",
+    "runtime-main.js.map": "/odin-rank-hotels/static/js/runtime-main.5be10888.js.map",
+    "static/js/2.33b2553c.chunk.js": "/odin-rank-hotels/static/js/2.33b2553c.chunk.js",
+    "static/js/2.33b2553c.chunk.js.map": "/odin-rank-hotels/static/js/2.33b2553c.chunk.js.map",
+    "index.html": "/odin-rank-hotels/index.html",
+    "static/css/main.45d31abf.chunk.css.map": "/odin-rank-hotels/static/css/main.45d31abf.chunk.css.map",
+    "static/js/2.33b2553c.chunk.js.LICENSE.txt": "/odin-rank-hotels/static/js/2.33b2553c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5be10888.js",
+    "static/js/2.33b2553c.chunk.js",
+    "static/css/main.45d31abf.chunk.css",
+    "static/js/main.6af0e52c.chunk.js"
+  ]
+}
